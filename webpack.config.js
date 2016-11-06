@@ -15,7 +15,7 @@ module.exports = {
     output: {
         path: path.resolve(pkg.config.buildDir),
         publicPath: DEBUG ? "/" : "./",
-        filename: ".bundle.js"
+        filename: "bundle.js"
     },
     node: {
       fs: 'empty'
